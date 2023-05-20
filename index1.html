@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- fontawesome link here -->
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-yCbmFjZuvJwZxW8RvfeH1X9tGkysBxoQW8Qv3tqAiqN+VbxNUwflx8uq7sF+9Y9y7I0/0RjJ7L1fmUBCT23bZw==" crossorigin="anonymous" />
+
+    <!-- style link here -->
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="image/hmm.jpg" alt="">
+        </div>
+
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">our menu</a>
+            <a href="#location">Location</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+        </div>
+
+    </header>
+
+    <div class="home">
+
+        <div class="main-home">
+            <div class="home-inner-content">
+                <div class="home-image">
+                    <img src="images/acai.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="home-inner-content">
+                <div class="home-text-content">
+                    <div id="my-paragraph" class="movement">
+                    <span style="--i:1">R</span>
+                    <span style="--i:2">o</span>
+                    <span style="--i:3">s</span>
+                    <span style="--i:4">e</span>
+                </div>
+                    
+                    <h1>Rose Cafe </h1>
+                    <p id="my-paragraph"> Where the sweet scent of roses mingles with the mouthwatering aroma of freshly made food. </p>
+	<script>
+		var myParagraph = document.getElementById("my-paragraph");
+		myParagraph.addEventListener("click", function() {
+			myParagraph.classList.add("bounce");
+			setTimeout(function() {
+				myParagraph.classList.remove("bounce");
+			}, 500);
+		});
+	</script>
+                    
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="about" class="about">
+        <div class="main-about">
+            <div class="about-content">
+                <div class="about-inner-content">
+                    <img class="myimageabout" src="images/cafe.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-inner-content">
+                    <div class="about-text-content">
+                        <h1>About us</h1>
+                        <p>Welcome to the Rose Cafe, where we take pride in serving the most delicious breakfast and pastries around. At our cafe, we understand that a good day starts with a great breakfast, and that's why we go above and beyond to create the perfect dining experience for our customers.</br> The moment you step into the rose-themed cafe, the aroma of freshly brewed coffee and the sight of vibrant, blooming roses take your breath away. The ambiance is warm and inviting, with cozy seating areas and elegant decor that exude a sense of comfort and relaxation. The menu features an array of delectable dishes, including signature rose-infused desserts that are as beautiful to look at as they are delicious. From the fluffy pancakes with rose petals to the fragrant rose tea, every dish is carefully crafted to provide a memorable dining experience. As you savor your meal, you can't help but feel surrounded by love and warmth, as if you're enjoying a meal in a cozy, intimate setting with friends and family </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="quality">
+        <div class="main-quality">
+            <div class="main-inner-quality">
+                <div class="quality-content">
+                    <h1>Dining Experience</h1>
+                    <p>
+                        Dining is not just about the food, it's about the experience. From the moment you step inside our doors, you'll be transported to a world of beauty, elegance, and sophistication. Our unique and romantic atmosphere is the perfect setting for a special occasion, or for simply enjoying a relaxing meal with friends and loved ones.
+
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="main-inner-quality">
+                <div class="quality-content qulity-image">
+                    <img src="images/last.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="menu" class="our-menu-food">
+
+        <h1>our menu</h1>
+        <div class="main-menu-food">
+            <div class="inner-menu-food">
+                <div class="menu-food-content">
+                    <div class="menu-food-text">
+                        <h2>Waffle</h2>
+                        <img src="images/waffle.jpg" alt="">
+
+
+                        <p>
+
+                            Our signature waffles are expertly crafted, with a crispy exterior and a light and airy interior, making for the perfect bite every time. And with our seasonal specials, you can enjoy flavors like pumpkin spice and gingerbread to match the season.
+                        </p>
+                        <p> <span>Price : 35 Aed</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-menu-food">
+                <div class="menu-food-content">
+
+                    <div class="menu-food-text">
+                        <h2>french Toast</h2>
+                        <img src="images/french.jpg" alt="">
+
+                        <p>
+                            French Toast. Made from thick slices of golden-brown bread, soaked in a sweet and decadent egg batter, and served up hot and fresh with a dusting of powdered sugar.
+
+                        </p>
+                        <p> <span>Price : 40 Aed</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-menu-food">
+                <div class="menu-food-content">
+
+                    <div class="menu-food-text">
+                        <h2>Croissant</h2>
+                        <img src="images/ccc.jpg" alt="">
+
+                        <p>Indulge in our delectable croissants, the perfect blend of flaky pastry and rich, creamy filling. With every bite, you'll experience the crisp crunch of the pastry, followed by a silky smooth sensation as the luscious filling melts in your mouth</p>
+                        <p> <span>Price : 30 Aed</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="our-menu-food">
+
+
+        <div class="main-menu-food">
+            <div class="inner-menu-food">
+                <div class="menu-food-content">
+                    <div class="menu-food-text">
+                        <h2>Acai bowl</h2>
+                        <img src="images/Acai.jpg" alt="">
+
+
+                        <p> An acai bowl is a nutritious and refreshing breakfast or snack made with frozen acai berries, topped with various fresh fruits, granola, and other toppings..</p>
+                        <p> <span>Price : 50 Aed</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-menu-food">
+                <div class="menu-food-content">
+
+                    <div class="menu-food-text">
+                        <h2>pancake</h2>
+                        <img src="images/pan.jpg" alt="">
+
+                        <p> Our secret pancake recipe is infused with just the right amount of sweetness, and can be customized with a variety of delicious toppings, from juicy strawberries and blueberries, to crunchy nuts and warm maple syrup.</p>
+                        <p> <span>Price : 35 Aed</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-menu-food">
+                <div class="menu-food-content">
+
+                    <div class="menu-food-text">
+                        <h2>Fruit salad</h2>
+                        <img src="images/fruit.jpg" alt="" height="350">
+
+                        <p>This sauce is truly the star of the show, a secret recipe that has been passed down through generations. It's a perfect balance of fresh herbs, zesty citrus, and a hint of spice that elevates the fruits to a whole new level of deliciousness. </p>
+                        <p> <span>Price : 35 Aed</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="location" class="enjoy-our-food">
+
+        <div class="food-main-content">
+            <h1>Location</h1>
+            <p>Rose Cafe is located in the bustling city of Dubai, United Arab Emirates. Specifically, it is situated in the elegant area of City Walk, a popular destination for locals and tourists alike. The cafe's address is Building 6, City Walk, Al Wasl Road, Dubai, making it easily accessible from all parts of the city. The location of the Rose Cafe offers visitors a unique experience of dining in a stylish and sophisticated ambiance, surrounded by modern architecture and a vibrant atmosphere. Whether you're looking for a quick bite, a relaxing afternoon tea or a full-blown meal, the Rose Cafe's central location in Dubai makes it a convenient and must-visit destination for foodies and coffee lovers.</p>
+        </div>
+
+    </div>
+
+    <div class="our-menu-food"></div>
+
+        <div id="contact" class="our-menu-food"> </div> 
+            <h1>Contact us </h1>
+            <p> For more information please contact us <br> +972-592070385 </br> rosecafe@hotmail.com </p>
+            <p> owner of the cafe : Layan Asia </p>
+            <img src=" liiii.jpg" alt=""> 
+
+    </div>
+
+
+
+
+
+
+
+    <div class="before">
+        <img src="images/" alt="">
+    </div>
+
+    <div class="footer">
+        <div class="main-footer">
+            <p> </p>
+        </div>
+
+        <footernav class="footer-navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">our menu</a>
+            <i class="fab fa-facebook"></i>
+<i class="fab fa-twitter"></i>
+<img src="" alt="Facebook">
+<img src="path/to/twitter-icon.png" alt="Twitter">
+
+          
+           
+        </footernav>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- scroll reveal javascript link -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- javascript link here -->
+
+    <script src="script.js"></script>
+</body>
+</html>
